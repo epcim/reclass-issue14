@@ -1,9 +1,8 @@
 
 classes:
-- second
+  - second
 
 parameters:
   _param:
-    ddd: 333
-    #aaa: ${_param:ddd}
+    ccc: 444
   mykey: ${_param:ccc}

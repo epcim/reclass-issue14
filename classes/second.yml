@@ -4,6 +4,7 @@ classes:
 
 parameters:
   _param:
-    bbb: ${_param:aaa}
-    ccc: ${_param:bbb}
+    # aaa: dummy
+     aaa: ${_param:yyy}
+     ccc: ${_param:aaa}
   mykey: ${_param:ccc}
