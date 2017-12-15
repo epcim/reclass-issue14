@@ -1,0 +1,9 @@
+
+classes:
+- first
+
+parameters:
+  _param:
+    bbb: ${_param:aaa}
+    ccc: ${_param:bbb}
+  mykey: ${_param:ccc}

@@ -1,0 +1,5 @@
+
+parameters:
+  _param:
+    aaa: 111
+  mykey: ${_param:aaa}

@@ -1,0 +1,9 @@
+
+classes:
+- second
+
+parameters:
+  _param:
+    ddd: 333
+    #aaa: ${_param:ddd}
+  mykey: ${_param:ccc}
